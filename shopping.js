@@ -76,7 +76,56 @@ input.addEventListener("keypress",function(event){
         add();
     }
 })
+//mam js code
+// var button= document.getElementById("enter");
+// var input=document.getElementById("userinput");
+// var ul=document.querySelector("ul");
+// var lst=document.getElementsByTagName("li");
 
+// function createList(){
+//         var li=document.createElement("li");
+//         li.appendChild(document.createTextNode(input.value));
+//         ul.appendChild(li);
+//         input.value="";  
+        
+//         //create delete buttons
+//         var btn=document.createElement("button");
+//         btn.appendChild(document.createTextNode("Delete"));
+//         li.appendChild(btn);
+//         btn.onclick=removeParent;
+// }
+
+// button.addEventListener("click",function(){
+//     if(input.value.length>0){
+//     createList();
+//     }
+// })
+
+// input.addEventListener("keypress",function(event){
+//      if(input.value.length>0 && event.keyCode===13){
+//         createList();
+//      }
+// })
+
+
+// //line through effect
+// ul.onclick=function(event){
+//     var target=event.target;
+//     target.classList.toggle("done");
+// }
+// //gets call when delete buttons are clicked
+// function removeParent(evt){
+//     evt.target.parentNode.remove();
+// }
+
+
+// // create delete buttons for already exisiting li tags
+// for(var i=0;i<lst.length;i++){
+//     var btn=document.createElement("button");
+//         btn.appendChild(document.createTextNode("Delete"));
+//         lst[i].appendChild(btn);
+//         btn.onclick=removeParent;
+// }
 
 
 
